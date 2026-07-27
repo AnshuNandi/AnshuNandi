@@ -130,7 +130,7 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=AnshuNandi&theme=tokyonight&hide_border=true&background=0D1117" width="70%" alt="GitHub Streak" />
+  <img src="./generated-streak.svg" width="70%" alt="GitHub Streak" />
 </div>
 
 <br/>
