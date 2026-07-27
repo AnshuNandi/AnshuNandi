@@ -123,8 +123,7 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 
 <p align="center">
-  <img src="./generated-stats.svg" width="48%" alt="Anshu Nandi's GitHub Stats" />
-  <img src="./generated-top-langs.svg" width="48%" alt="Most Used Languages" />
+  <img src="./github-metrics.svg" width="90%" alt="Anshu Nandi's GitHub Metrics" />
 </p>
 
 <br/>
