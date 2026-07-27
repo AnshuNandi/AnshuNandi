@@ -24,7 +24,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117
+          options: username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true
           path: generated-top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -37,6 +37,11 @@ jobs:
             github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+      - name: Generate Streak Stats (local SVG)
+        run: |
+          curl -s -o generated-streak.svg "https://streak-stats.demolab.com/?user=AnshuNandi&theme=tokyonight&hide_border=true&background=0D1117&type=svg"
+          echo "Streak SVG generated successfully"
 
       - name: Save images to repo
         run: |
