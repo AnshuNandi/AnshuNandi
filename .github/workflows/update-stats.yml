@@ -12,39 +12,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Debug Token Length
-        run: |
-          TOKEN_LENGTH=${#STATS_TOKEN}
-          echo "The length of STATS_TOKEN is: $TOKEN_LENGTH"
-          if [ "$TOKEN_LENGTH" -eq 0 ]; then
-            echo "ERROR: STATS_TOKEN is completely empty! It cannot see your secret."
-          fi
-        env:
-          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
-
-      - name: Test Token GraphQL Directly
-        run: |
-          QUERY='{"query":"query{user(login:\"AnshuNandi\"){contributionsCollection{restrictedContributionsCount totalCommitContributions}}}"}'
-          curl -s -H "Authorization: bearer $STATS_TOKEN" -X POST -d "$QUERY" https://api.github.com/graphql > raw_graphql_response.json
-          cat raw_graphql_response.json
-        env:
-          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
-
-      - name: Generate Main Stats Card
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate Metrics Dashboard
+        uses: lowlighter/metrics@latest
         with:
-          card: stats
-          options: username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=1
-          path: generated-stats.svg
           token: ${{ secrets.STATS_TOKEN }}
-
-      - name: Generate Top Languages Card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=1&hide=jupyter%20notebook,c,cython
-          path: generated-top-langs.svg
-          token: ${{ secrets.STATS_TOKEN }}
+          user: AnshuNandi
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_ignored: jupyter notebook, c, cython
+          config_display: large
 
       - name: Generate Contribution Snake (Private Data)
         uses: Platane/snk/svg-only@v3
