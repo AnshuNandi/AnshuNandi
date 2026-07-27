@@ -40,7 +40,7 @@ jobs:
 
       - name: Generate Streak Stats (local SVG)
         run: |
-          curl -s -o generated-streak.svg "https://streak-stats.demolab.com/?user=AnshuNandi&theme=tokyonight&hide_border=true&background=0D1117&type=svg"
+          curl -s -o generated-streak.svg "https://github-readme-streak-stats-rho-six.vercel.app/?user=AnshuNandi&theme=tokyonight&hide_border=true&background=0D1117&type=svg"
           echo "Streak SVG generated successfully"
 
       - name: Save images to repo
