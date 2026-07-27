@@ -22,6 +22,14 @@ jobs:
         env:
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
 
+      - name: Test Token GraphQL Directly
+        run: |
+          QUERY='{"query":"query{user(login:\"AnshuNandi\"){contributionsCollection{restrictedContributionsCount totalCommitContributions}}}"}'
+          curl -s -H "Authorization: bearer $STATS_TOKEN" -X POST -d "$QUERY" https://api.github.com/graphql > raw_graphql_response.json
+          cat raw_graphql_response.json
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+
       - name: Generate Main Stats Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
