@@ -122,10 +122,10 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 
 
-<div align="center">
-  <img src="./generated-stats.svg" height="180" alt="GitHub Stats" />
-  <img src="./generated-top-langs.svg" height="180" alt="Top Languages" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="150" alt="Top Languages" />
+</p>
 
 <br/>
 
