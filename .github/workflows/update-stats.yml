@@ -34,7 +34,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true
+          options: username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=1
           path: generated-stats.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -42,7 +42,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide=jupyter%20notebook,c,cython
+          options: username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=1&hide=jupyter%20notebook,c,cython
           path: generated-top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
