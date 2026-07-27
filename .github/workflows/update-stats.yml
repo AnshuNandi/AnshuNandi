@@ -12,6 +12,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Debug Token Length
+        run: |
+          TOKEN_LENGTH=${#STATS_TOKEN}
+          echo "The length of STATS_TOKEN is: $TOKEN_LENGTH"
+          if [ "$TOKEN_LENGTH" -eq 0 ]; then
+            echo "ERROR: STATS_TOKEN is completely empty! It cannot see your secret."
+          fi
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+
       - name: Generate Main Stats Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
