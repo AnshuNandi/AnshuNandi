@@ -5,7 +5,11 @@
 
 <!-- TYPING SVG -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=0055FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" alt="Typing SVG" />
+  </picture>
 </div>
 
 
@@ -34,19 +38,35 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <h3 align="center">🧠 AI &amp; Machine Learning</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=dark&perline=5" /></div>
+<div align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=dark&perline=5" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=light&perline=5" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=dark&perline=5" />
+</picture></div>
 <p align="center"><em>Machine Learning · Deep Learning · NLP · Generative AI (LLMs, RAG) · Agentic AI<br/>PyTorch · TensorFlow · LangChain · LangGraph · MediaPipe · Scikit-learn · Pandas · NumPy · Matplotlib · EDA</em></p>
 
 <h3 align="center">🌐 Full-Stack &amp; Backend</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=dark" /></div>
+<div align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=light" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=dark" />
+</picture></div>
 <p align="center"><em>TypeScript · JavaScript · HTML/CSS · React.js · Next.js · Express.js · FastAPI · Flask · Streamlit · WebRTC · Socket.IO · JWT</em></p>
 
 <h3 align="center">☁️ Cloud, DevOps &amp; Databases</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=dark" /></div>
+<div align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=light" />
+  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=dark" />
+</picture></div>
 <p align="center"><em>AWS (S3, EC2) · GCP · Docker · Kubernetes · Git · GitHub Actions · CI/CD · Celery · PostgreSQL · MongoDB · MySQL · Redis · FAISS · Pinecone · ChromaDB · Supabase</em></p>
 
 <h3 align="center">⚙️ Languages &amp; Core CS</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=dark" /></div>
+<div align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=light" />
+  <img src="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=dark" />
+</picture></div>
 <p align="center"><em>Python · Java · C++ · C · TypeScript · JavaScript · SQL · Data Structures &amp; Algorithms · OOP · DBMS · OS · Computer Networks</em></p>
 
 <br/>
@@ -63,7 +83,11 @@
 ### 🏛️ [EPIC: AI Grievance Platform](#epic-ai-grievance-platform)
 Architected a distributed full-stack Govt. grievance platform. Built a hybrid 4-tier LLM triage system, LangGraph ReAct agent, and FAISS RAG pipeline. Engineered a dual-provider email sync engine and real-time SSE dashboard. Enforced enterprise security with RLS, RISC webhooks, and a VRAM mutex.
 
-<img src="https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=light" />
+  <img src="https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=dark" />
+</picture>
 
 </td>
 <td width="50%" valign="top">
@@ -71,7 +95,11 @@ Architected a distributed full-stack Govt. grievance platform. Built a hybrid 4-
 ### ⚕️ [MLOps X-Ray Classifier](https://github.com/AnshuNandi/pneumonia-xray-classifier)
 Architected a custom PyTorch CNN for binary chest X-ray classification. Engineered a modular MLOps pipeline (data ingestion → augmentation → training → evaluation) and a FastAPI inference server with automated CI/CD via GitHub Actions to AWS EC2 self-hosted runners.
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=light" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=dark" />
+</picture>
 
 </td>
 </tr>
@@ -81,7 +109,11 @@ Architected a custom PyTorch CNN for binary chest X-ray classification. Engineer
 ### 🐙 [Custom VCS CLI](https://github.com/AnshuNandi/Custom-Version-Control)
 Engineered a Git-like CLI (yargs) with immutable SHA hashing and AWS S3 SDK sync for version-controlled blobs. Built a REST API with JWT/bcrypt auth and a GitHub-like React dashboard featuring contribution heatmaps and Socket.IO real-time collaboration.
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=light" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=dark" />
+</picture>
 
 </td>
 <td width="50%" valign="top">
@@ -89,7 +121,11 @@ Engineered a Git-like CLI (yargs) with immutable SHA hashing and AWS S3 SDK sync
 ### 📹 [PulseMeet: WebRTC Conferencing](https://github.com/AnshuNandi/PulseMeet)
 Engineered a P2P video conferencing app using WebRTC (ICE/SDP) and a Socket.IO signaling server. Implemented screen sharing, meeting rooms, call history tracking, and token-based session management with bcrypt hashing.
 
-<img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=light" />
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=dark" />
+</picture>
 
 </td>
 </tr>
@@ -99,7 +135,11 @@ Engineered a P2P video conferencing app using WebRTC (ICE/SDP) and a Socket.IO s
 ### 🤖 [Dum-E: AI Fitness Coach](https://github.com/AnshuNandi/Dum-E--AI-Coach)
 Built a real-time CV pipeline (MediaPipe + OpenCV) computing 3D joint angles to render a live biomechanical HUD across 6 exercises. Integrated the Groq API for ultra-fast, context-aware LLM feedback and async gTTS audio cues.
 
-<img src="https://skillicons.dev/icons?i=py,opencv&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,opencv&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,opencv&theme=light" />
+  <img src="https://skillicons.dev/icons?i=py,opencv&theme=dark" />
+</picture>
 
 </td>
 <td width="50%" valign="top">
@@ -107,7 +147,11 @@ Built a real-time CV pipeline (MediaPipe + OpenCV) computing 3D joint angles to 
 ### 🛡️ [SnapRoll: Biometric Attendance](https://github.com/AnshuNandi/SnapRoll)
 Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + SVM) and librosa MFCC audio verification. Built a Supabase (PostgreSQL) backend with encrypted profiles, dual-role portals, and QR-code class-joining.
 
-<img src="https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=dark" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=light" />
+  <img src="https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=dark" />
+</picture>
 
 </td>
 </tr>
@@ -123,14 +167,26 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 
 <p align="center">
-  <img src="./generated-stats.svg" width="48%" alt="Anshu Nandi's GitHub Stats" />
-  <img src="./generated-top-langs.svg" width="48%" alt="Most Used Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./generated-stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated-stats-light.svg" />
+    <img src="./generated-stats-dark.svg" width="48%" alt="Anshu Nandi's GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./generated-top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated-top-langs-light.svg" />
+    <img src="./generated-top-langs-dark.svg" width="48%" alt="Most Used Languages" />
+  </picture>
 </p>
 
 <br/>
 
 <div align="center">
-  <img src="./generated-streak.svg" width="70%" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./generated-streak-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated-streak-light.svg" />
+    <img src="./generated-streak-dark.svg" width="70%" alt="GitHub Streak" />
+  </picture>
 </div>
 
 <br/>
@@ -154,7 +210,11 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 <!-- DAILY QUOTE -->
 <h2 align="center">💬 Dev Quote of the Day</h2>
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="70%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default" />
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="70%" alt="Quote of the Day" />
+  </picture>
 </div>
 
 <br/>
