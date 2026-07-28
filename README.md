@@ -5,8 +5,11 @@
 
 <!-- TYPING SVG -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT#gh-dark-mode-only" alt="Typing SVG" />
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=0055FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT#gh-light-mode-only" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./generated-typing-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated-typing-light.svg" />
+    <img src="./generated-typing-dark.svg" alt="Typing SVG" />
+  </picture>
 </div>
 
 
@@ -167,8 +170,11 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 <!-- DAILY QUOTE -->
 <h2 align="center">💬 Dev Quote of the Day</h2>
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight#gh-dark-mode-only" width="70%" alt="Quote of the Day" />
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default#gh-light-mode-only" width="70%" alt="Quote of the Day" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./generated-quote-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated-quote-light.svg" />
+    <img src="./generated-quote-dark.svg" width="70%" alt="Quote of the Day" />
+  </picture>
 </div>
 
 <br/>
