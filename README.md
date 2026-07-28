@@ -1,20 +1,20 @@
 <!-- HEADER -->
-<div align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/dark.svg?v=2" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner/light.svg?v=2" />
     <img src="./assets/banner/dark.svg?v=2" width="100%" alt="Anshu Nandi — Agentic AI &amp; Full-Stack Engineer" />
   </picture>
-</div>
+</p>
 
 <!-- TYPING SVG -->
-<div align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./generated/typing-dark.svg?v=2" />
     <source media="(prefers-color-scheme: light)" srcset="./generated/typing-light.svg?v=2" />
     <img src="./generated/typing-dark.svg?v=2" alt="Typing SVG" />
   </picture>
-</div>
+</p>
 
 
 <p align="center"><a href="https://linkedin.com/in/anshu-nandi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==&logoColor=white" height="28" /></a>&nbsp;<a href="mailto:nandi.anshu712@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" /></a>&nbsp;<a href="https://leetcode.com/u/anshunandi/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="28" /></a>&nbsp;<a href="https://discord.com/users/anshu_007_"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="28" /></a>&nbsp;<img src="https://komarev.com/ghpvc/?username=AnshuNandi&label=Profile+Views&color=6e40c9&style=for-the-badge" height="28" /></p>
@@ -36,13 +36,13 @@
 
 
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></div>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></p>
 
 <!-- TECH STACK -->
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <h3 align="center">🧠 AI &amp; Machine Learning</h3>
-<div align="center">
+<p align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/1-dark.svg?v=2" />
@@ -50,11 +50,11 @@
   <img src="./assets/skills/1-dark.svg?v=2" />
 </picture>
 
-</div>
+</p>
 <p align="center"><em>Machine Learning · Deep Learning · NLP · Generative AI (LLMs, RAG) · Agentic AI<br/>PyTorch · TensorFlow · LangChain · LangGraph · MediaPipe · Scikit-learn · Pandas · NumPy · Matplotlib · EDA</em></p>
 
 <h3 align="center">🌐 Frontend &amp; Backend</h3>
-<div align="center">
+<p align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/2-dark.svg?v=2" />
@@ -62,11 +62,11 @@
   <img src="./assets/skills/2-dark.svg?v=2" />
 </picture>
 
-</div>
+</p>
 <p align="center"><em>TypeScript · JavaScript · HTML/CSS · Tailwind CSS · React.js · Next.js · Express.js · FastAPI · Flask · NGINX · Streamlit · WebRTC · Socket.IO · JWT</em></p>
 
 <h3 align="center">☁️ Cloud, DevOps &amp; Databases</h3>
-<div align="center">
+<p align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/3-dark.svg?v=2" />
@@ -74,11 +74,11 @@
   <img src="./assets/skills/3-dark.svg?v=2" />
 </picture>
 
-</div>
+</p>
 <p align="center"><em>AWS (S3, EC2) · GCP · Linux · Bash · Docker · Kubernetes · Git · GitHub · GitHub Actions · CI/CD · Celery · PostgreSQL · MongoDB · MySQL · SQLite · Redis · FAISS · Pinecone · ChromaDB · Supabase</em></p>
 
 <h3 align="center">⚙️ Languages &amp; Fundamentals</h3>
-<div align="center">
+<p align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/4-dark.svg?v=2" />
@@ -86,12 +86,12 @@
   <img src="./assets/skills/4-dark.svg?v=2" />
 </picture>
 
-</div>
+</p>
 <p align="center"><em>Python · Java · C++ · C · TypeScript · JavaScript · SQL · Data Structures &amp; Algorithms · OOP · DBMS · OS · Computer Networks</em></p>
 
 <br/>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></div>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></p>
 
 <!-- PROJECTS -->
 <h2 align="center">🚀 Engineering Portfolio</h2>
@@ -203,7 +203,7 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 <br/>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></div>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></p>
 
 <!-- ANALYTICS -->
 <h2 align="center">📊 GitHub Analytics</h2>
@@ -225,45 +225,45 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 <br/>
 
-<div align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./generated/streak-dark.svg?v=2" />
     <source media="(prefers-color-scheme: light)" srcset="./generated/streak-light.svg?v=2" />
     <img src="./generated/streak-dark.svg?v=2" width="70%" alt="GitHub Streak" />
   </picture>
-</div>
+</p>
 
 <br/>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></div>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></p>
 
 <!-- SNAKE -->
 <h2 align="center">🐍 Contribution Snake</h2>
-<div align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./generated/snake-dark.svg?v=2" />
     <source media="(prefers-color-scheme: light)" srcset="./generated/snake-light.svg?v=2" />
     <img src="./generated/snake-light.svg?v=2" alt="Contribution Snake" />
   </picture>
-</div>
+</p>
 
 <br/>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></div>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></p>
 
 <!-- DAILY QUOTE -->
 <h2 align="center">💬 Dev Quote of the Day</h2>
-<div align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./generated/quote-dark.svg?v=2" />
     <source media="(prefers-color-scheme: light)" srcset="./generated/quote-light.svg?v=2" />
     <img src="./generated/quote-dark.svg?v=2" width="70%" alt="Quote of the Day" />
   </picture>
-</div>
+</p>
 
 <br/>
 
 <!-- FOOTER -->
-<div align="center">
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,4,30,8,44,12&height=100&section=footer" width="100%" />
-</div>
+</p>
