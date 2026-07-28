@@ -35,23 +35,19 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <h3 align="center">🧠 AI &amp; Machine Learning</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=dark&perline=5#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=light&perline=5#gh-light-mode-only" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=dark&perline=5" /></div>
 <p align="center"><em>Machine Learning · Deep Learning · NLP · Generative AI (LLMs, RAG) · Agentic AI<br/>PyTorch · TensorFlow · LangChain · LangGraph · MediaPipe · Scikit-learn · Pandas · NumPy · Matplotlib · EDA</em></p>
 
 <h3 align="center">🌐 Full-Stack &amp; Backend</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=light#gh-light-mode-only" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=dark" /></div>
 <p align="center"><em>TypeScript · JavaScript · HTML/CSS · React.js · Next.js · Express.js · FastAPI · Flask · Streamlit · WebRTC · Socket.IO · JWT</em></p>
 
 <h3 align="center">☁️ Cloud, DevOps &amp; Databases</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=light#gh-light-mode-only" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=dark" /></div>
 <p align="center"><em>AWS (S3, EC2) · GCP · Docker · Kubernetes · Git · GitHub Actions · CI/CD · Celery · PostgreSQL · MongoDB · MySQL · Redis · FAISS · Pinecone · ChromaDB · Supabase</em></p>
 
 <h3 align="center">⚙️ Languages &amp; Core CS</h3>
-<div align="center"><img src="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=light#gh-light-mode-only" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=dark" /></div>
 <p align="center"><em>Python · Java · C++ · C · TypeScript · JavaScript · SQL · Data Structures &amp; Algorithms · OOP · DBMS · OS · Computer Networks</em></p>
 
 <br/>
@@ -68,8 +64,7 @@
 ### 🏛️ [EPIC: AI Grievance Platform](#epic-ai-grievance-platform)
 Architected a distributed full-stack Govt. grievance platform. Built a hybrid 4-tier LLM triage system, LangGraph ReAct agent, and FAISS RAG pipeline. Engineered a dual-provider email sync engine and real-time SSE dashboard. Enforced enterprise security with RLS, RISC webhooks, and a VRAM mutex.
 
-<img src="https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=light#gh-light-mode-only" />
+<img src="https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=dark" />
 
 </td>
 <td width="50%" valign="top">
@@ -77,8 +72,7 @@ Architected a distributed full-stack Govt. grievance platform. Built a hybrid 4-
 ### ⚕️ [MLOps X-Ray Classifier](https://github.com/AnshuNandi/pneumonia-xray-classifier)
 Architected a custom PyTorch CNN for binary chest X-ray classification. Engineered a modular MLOps pipeline (data ingestion → augmentation → training → evaluation) and a FastAPI inference server with automated CI/CD via GitHub Actions to AWS EC2 self-hosted runners.
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=light#gh-light-mode-only" />
+<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=dark" />
 
 </td>
 </tr>
@@ -88,8 +82,7 @@ Architected a custom PyTorch CNN for binary chest X-ray classification. Engineer
 ### 🐙 [Custom VCS CLI](https://github.com/AnshuNandi/Custom-Version-Control)
 Engineered a Git-like CLI (yargs) with immutable SHA hashing and AWS S3 SDK sync for version-controlled blobs. Built a REST API with JWT/bcrypt auth and a GitHub-like React dashboard featuring contribution heatmaps and Socket.IO real-time collaboration.
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=light#gh-light-mode-only" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=dark" />
 
 </td>
 <td width="50%" valign="top">
@@ -97,8 +90,7 @@ Engineered a Git-like CLI (yargs) with immutable SHA hashing and AWS S3 SDK sync
 ### 📹 [PulseMeet: WebRTC Conferencing](https://github.com/AnshuNandi/PulseMeet)
 Engineered a P2P video conferencing app using WebRTC (ICE/SDP) and a Socket.IO signaling server. Implemented screen sharing, meeting rooms, call history tracking, and token-based session management with bcrypt hashing.
 
-<img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=light#gh-light-mode-only" />
+<img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=dark" />
 
 </td>
 </tr>
@@ -108,8 +100,7 @@ Engineered a P2P video conferencing app using WebRTC (ICE/SDP) and a Socket.IO s
 ### 🤖 [Dum-E: AI Fitness Coach](https://github.com/AnshuNandi/Dum-E--AI-Coach)
 Built a real-time CV pipeline (MediaPipe + OpenCV) computing 3D joint angles to render a live biomechanical HUD across 6 exercises. Integrated the Groq API for ultra-fast, context-aware LLM feedback and async gTTS audio cues.
 
-<img src="https://skillicons.dev/icons?i=py,opencv&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=py,opencv&theme=light#gh-light-mode-only" />
+<img src="https://skillicons.dev/icons?i=py,opencv&theme=dark" />
 
 </td>
 <td width="50%" valign="top">
@@ -117,8 +108,7 @@ Built a real-time CV pipeline (MediaPipe + OpenCV) computing 3D joint angles to 
 ### 🛡️ [SnapRoll: Biometric Attendance](https://github.com/AnshuNandi/SnapRoll)
 Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + SVM) and librosa MFCC audio verification. Built a Supabase (PostgreSQL) backend with encrypted profiles, dual-role portals, and QR-code class-joining.
 
-<img src="https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=dark#gh-dark-mode-only" />
-<img src="https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=light#gh-light-mode-only" />
+<img src="https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=dark" />
 
 </td>
 </tr>
