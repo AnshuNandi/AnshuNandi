@@ -18,7 +18,7 @@ jobs:
           cd github-readme-stats
           npm ci
           npm install express
-          echo 'const express = require("express"); const app = express(); app.get("/api", require("./api/index.js")); app.get("/api/top-langs", require("./api/top-langs.js")); app.listen(9000);' > server.js
+          echo 'import express from "express"; import indexHandler from "./api/index.js"; import topLangsHandler from "./api/top-langs.js"; const app = express(); app.get("/api", indexHandler); app.get("/api/top-langs", topLangsHandler); app.listen(9000);' > server.js
           node server.js &
           sleep 10
           curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" > ../generated-stats.svg
