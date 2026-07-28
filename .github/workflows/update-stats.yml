@@ -32,6 +32,7 @@ jobs:
           curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated/top-langs-dark.svg
           curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=default&hide_border=true&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated/top-langs-light.svg
           curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" > ../generated/quote-dark.svg
+          sed -i 's/height="auto"/height="180"/g' ../generated/quote-dark.svg
           sed -e 's/#1a1b27/#fffefe/g' -e 's/#38bdae/#333/g' -e 's/#bf91f3/#4c71f2/g' -e 's/#70a5fd/#2f80ed/g' ../generated/quote-dark.svg > ../generated/quote-light.svg
         env:
           PAT_1: ${{ secrets.STATS_TOKEN }}
