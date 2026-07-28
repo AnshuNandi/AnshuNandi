@@ -18,6 +18,7 @@ jobs:
           cd github-readme-stats
           sed -i 's/totalCommitContributions,/totalCommitContributions, restrictedContributionsCount,/g' src/fetchers/stats.js
           sed -i 's/stats.totalCommits = user.commits.totalCommitContributions;/stats.totalCommits = user.commits.totalCommitContributions + user.commits.restrictedContributionsCount;/g' src/fetchers/stats.js
+          sed -i 's/ownerAffiliations: OWNER/ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]/g' src/fetchers/top-languages.js
           npm ci
           npm install express
           echo 'import express from "express"; import indexHandler from "./api/index.js"; import topLangsHandler from "./api/top-langs.js"; const app = express(); app.get("/api", indexHandler); app.get("/api/top-langs", topLangsHandler); app.listen(9000);' > server.js
