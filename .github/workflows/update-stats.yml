@@ -16,6 +16,8 @@ jobs:
         run: |
           git clone --depth=1 https://github.com/anuraghazra/github-readme-stats.git
           cd github-readme-stats
+          sed -i 's/totalCommitContributions,/totalCommitContributions, restrictedContributionsCount,/g' src/fetchers/stats.js
+          sed -i 's/stats.totalCommits = user.commits.totalCommitContributions;/stats.totalCommits = user.commits.totalCommitContributions + user.commits.restrictedContributionsCount;/g' src/fetchers/stats.js
           npm ci
           npm install express
           echo 'import express from "express"; import indexHandler from "./api/index.js"; import topLangsHandler from "./api/top-langs.js"; const app = express(); app.get("/api", indexHandler); app.get("/api/top-langs", topLangsHandler); app.listen(9000);' > server.js
@@ -24,7 +26,7 @@ jobs:
           echo "TESTING RAW GRAPHQL FOR DEBUGGING:"
           curl -s -H "Authorization: bearer $PAT_1" -X POST -d '{"query":"query{user(login:\"AnshuNandi\"){contributionsCollection{restrictedContributionsCount totalCommitContributions}}}"}' https://api.github.com/graphql
           echo ""
-          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true" > ../generated-stats.svg
+          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" > ../generated-stats.svg
           curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide=jupyter%20notebook,c,cython" > ../generated-top-langs.svg
         env:
           PAT_1: ${{ secrets.STATS_TOKEN }}
