@@ -27,7 +27,7 @@ jobs:
           echo "TESTING RAW GRAPHQL FOR DEBUGGING:"
           curl -s -H "Authorization: bearer $PAT_1" -X POST -d '{"query":"query{user(login:\"AnshuNandi\"){contributionsCollection{restrictedContributionsCount totalCommitContributions}}}"}' https://api.github.com/graphql
           echo ""
-          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide_rank=true" > ../generated-stats.svg
+          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats" > ../generated-stats.svg
           curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated-top-langs.svg
         env:
           PAT_1: ${{ secrets.STATS_TOKEN }}
