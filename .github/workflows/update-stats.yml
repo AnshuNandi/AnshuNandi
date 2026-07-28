@@ -27,12 +27,12 @@ jobs:
           echo "TESTING RAW GRAPHQL FOR DEBUGGING:"
           curl -s -H "Authorization: bearer $PAT_1" -X POST -d '{"query":"query{user(login:\"AnshuNandi\"){contributionsCollection{restrictedContributionsCount totalCommitContributions}}}"}' https://api.github.com/graphql
           echo ""
-          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats" > ../generated-stats-dark.svg
-          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=default&hide_border=true&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats" > ../generated-stats-light.svg
-          curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated-top-langs-dark.svg
-          curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=default&hide_border=true&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated-top-langs-light.svg
-          curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" > ../generated-quote-dark.svg
-          curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default" > ../generated-quote-light.svg
+          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats" > ../generated/stats-dark.svg
+          curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=default&hide_border=true&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats" > ../generated/stats-light.svg
+          curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated/top-langs-dark.svg
+          curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=default&hide_border=true&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated/top-langs-light.svg
+          curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" > ../generated/quote-dark.svg
+          curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default" > ../generated/quote-light.svg
         env:
           PAT_1: ${{ secrets.STATS_TOKEN }}
 
@@ -41,8 +41,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg?palette=github-dark
+            generated/snake-light.svg
+            generated/snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
 
@@ -50,21 +50,21 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           options: user=AnshuNandi&theme=tokyonight&hide_border=true&background=0D1117
-          path: generated-streak-dark.svg
+          path: generated/streak-dark.svg
           token: ${{ secrets.STATS_TOKEN }}
 
       - name: Generate Streak Stats Light
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           options: user=AnshuNandi&theme=default&hide_border=true
-          path: generated-streak-light.svg
+          path: generated/streak-light.svg
           token: ${{ secrets.STATS_TOKEN }}
 
       - name: Save images to repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated-stats-dark.svg generated-stats-light.svg generated-top-langs-dark.svg generated-top-langs-light.svg generated-streak-dark.svg generated-streak-light.svg generated-quote-dark.svg generated-quote-light.svg
+          git add generated/stats-dark.svg generated/stats-light.svg generated/top-langs-dark.svg generated/top-langs-light.svg generated/streak-dark.svg generated/streak-light.svg generated/quote-dark.svg generated/quote-light.svg
           git commit -m "chore: securely update github stats and snake" || exit 0
           git pull --rebase origin main
           git push
