@@ -40,8 +40,11 @@
 <h3 align="center">🧠 AI &amp; Machine Learning</h3>
 <div align="center">
 
-![](https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=dark&perline=5#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,anaconda&theme=light&perline=5#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-1-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-1-light.svg" />
+  <img src="./assets/skills-1-dark.svg" />
+</picture>
 
 </div>
 <p align="center"><em>Machine Learning · Deep Learning · NLP · Generative AI (LLMs, RAG) · Agentic AI<br/>PyTorch · TensorFlow · LangChain · LangGraph · MediaPipe · Scikit-learn · Pandas · NumPy · Matplotlib · EDA</em></p>
@@ -49,8 +52,11 @@
 <h3 align="center">🌐 Full-Stack &amp; Backend</h3>
 <div align="center">
 
-![](https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,fastapi,flask&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-2-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-2-light.svg" />
+  <img src="./assets/skills-2-dark.svg" />
+</picture>
 
 </div>
 <p align="center"><em>TypeScript · JavaScript · HTML/CSS · React.js · Next.js · Express.js · FastAPI · Flask · Streamlit · WebRTC · Socket.IO · JWT</em></p>
@@ -58,8 +64,11 @@
 <h3 align="center">☁️ Cloud, DevOps &amp; Databases</h3>
 <div align="center">
 
-![](https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,postgres,mongodb,mysql,redis,git,githubactions&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-3-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-3-light.svg" />
+  <img src="./assets/skills-3-dark.svg" />
+</picture>
 
 </div>
 <p align="center"><em>AWS (S3, EC2) · GCP · Docker · Kubernetes · Git · GitHub Actions · CI/CD · Celery · PostgreSQL · MongoDB · MySQL · Redis · FAISS · Pinecone · ChromaDB · Supabase</em></p>
@@ -67,8 +76,11 @@
 <h3 align="center">⚙️ Languages &amp; Core CS</h3>
 <div align="center">
 
-![](https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=py,java,cpp,c,ts,js&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-4-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-4-light.svg" />
+  <img src="./assets/skills-4-dark.svg" />
+</picture>
 
 </div>
 <p align="center"><em>Python · Java · C++ · C · TypeScript · JavaScript · SQL · Data Structures &amp; Algorithms · OOP · DBMS · OS · Computer Networks</em></p>
@@ -89,8 +101,11 @@ Architected a distributed full-stack Govt. grievance platform. Built a hybrid 4-
 
 
 
-![](https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=py,ts,fastapi,react,postgres,redis,docker,kubernetes&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-5-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-5-light.svg" />
+  <img src="./assets/skills-5-dark.svg" />
+</picture>
 
 
 
@@ -102,8 +117,11 @@ Architected a custom PyTorch CNN for binary chest X-ray classification. Engineer
 
 
 
-![](https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=py,pytorch,fastapi,docker,aws,githubactions&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-6-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-6-light.svg" />
+  <img src="./assets/skills-6-dark.svg" />
+</picture>
 
 
 
@@ -117,8 +135,11 @@ Engineered a Git-like CLI (yargs) with immutable SHA hashing and AWS S3 SDK sync
 
 
 
-![](https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=nodejs,express,react,mongodb,aws,git&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-7-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-7-light.svg" />
+  <img src="./assets/skills-7-dark.svg" />
+</picture>
 
 
 
@@ -130,8 +151,11 @@ Engineered a P2P video conferencing app using WebRTC (ICE/SDP) and a Socket.IO s
 
 
 
-![](https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-8-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-8-light.svg" />
+  <img src="./assets/skills-8-dark.svg" />
+</picture>
 
 
 
@@ -145,8 +169,11 @@ Built a real-time CV pipeline (MediaPipe + OpenCV) computing 3D joint angles to 
 
 
 
-![](https://skillicons.dev/icons?i=py,opencv&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=py,opencv&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-9-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-9-light.svg" />
+  <img src="./assets/skills-9-dark.svg" />
+</picture>
 
 
 
@@ -158,8 +185,11 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 
 
-![](https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=dark#gh-dark-mode-only)
-![](https://skillicons.dev/icons?i=py,flask,supabase,postgres,scikitlearn&theme=light#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-10-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-10-light.svg" />
+  <img src="./assets/skills-10-dark.svg" />
+</picture>
 
 
 
