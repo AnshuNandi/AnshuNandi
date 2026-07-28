@@ -31,8 +31,6 @@ jobs:
           curl -s "http://localhost:9000/api?username=AnshuNandi&show_icons=true&theme=default&hide_border=true&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats" > ../generated-stats-light.svg
           curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated-top-langs-dark.svg
           curl -s "http://localhost:9000/api/top-langs?username=AnshuNandi&layout=compact&theme=default&hide_border=true&count_private=true&hide=jupyter%20notebook,c,cython,c%2B%2B" > ../generated-top-langs-light.svg
-          curl -s "https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" > ../generated-typing-dark.svg
-          curl -s "https://readme-typing-svg.herokuapp.com/?font=Space+Mono&weight=700&size=24&pause=1000&color=0055FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" > ../generated-typing-light.svg
           curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" > ../generated-quote-dark.svg
           curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default" > ../generated-quote-light.svg
         env:
@@ -66,7 +64,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated-stats-dark.svg generated-stats-light.svg generated-top-langs-dark.svg generated-top-langs-light.svg generated-streak-dark.svg generated-streak-light.svg generated-typing-dark.svg generated-typing-light.svg generated-quote-dark.svg generated-quote-light.svg
+          git add generated-stats-dark.svg generated-stats-light.svg generated-top-langs-dark.svg generated-top-langs-light.svg generated-streak-dark.svg generated-streak-light.svg generated-quote-dark.svg generated-quote-light.svg
           git commit -m "chore: securely update github stats and snake" || exit 0
           git pull --rebase origin main
           git push
