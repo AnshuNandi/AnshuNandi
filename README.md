@@ -53,7 +53,7 @@
 </div>
 <p align="center"><em>Machine Learning · Deep Learning · NLP · Generative AI (LLMs, RAG) · Agentic AI<br/>PyTorch · TensorFlow · LangChain · LangGraph · MediaPipe · Scikit-learn · Pandas · NumPy · Matplotlib · EDA</em></p>
 
-<h3 align="center">🌐 Full-Stack &amp; Backend</h3>
+<h3 align="center">🌐 Frontend &amp; Backend</h3>
 <div align="center">
 
 <picture>
@@ -63,7 +63,7 @@
 </picture>
 
 </div>
-<p align="center"><em>TypeScript · JavaScript · HTML/CSS · React.js · Next.js · Express.js · FastAPI · Flask · Streamlit · WebRTC · Socket.IO · JWT</em></p>
+<p align="center"><em>TypeScript · JavaScript · HTML/CSS · Tailwind CSS · React.js · Next.js · Express.js · FastAPI · Flask · Streamlit · WebRTC · Socket.IO · JWT</em></p>
 
 <h3 align="center">☁️ Cloud, DevOps &amp; Databases</h3>
 <div align="center">
@@ -75,9 +75,9 @@
 </picture>
 
 </div>
-<p align="center"><em>AWS (S3, EC2) · GCP · Docker · Kubernetes · Git · GitHub Actions · CI/CD · Celery · PostgreSQL · MongoDB · MySQL · Redis · FAISS · Pinecone · ChromaDB · Supabase</em></p>
+<p align="center"><em>AWS (S3, EC2) · GCP · Linux · Bash · NGINX · Docker · Kubernetes · Git · GitHub · GitHub Actions · CI/CD · Celery · PostgreSQL · MongoDB · MySQL · SQLite · Redis · FAISS · Pinecone · ChromaDB · Supabase</em></p>
 
-<h3 align="center">⚙️ Languages &amp; Core CS</h3>
+<h3 align="center">⚙️ Languages &amp; Fundamentals</h3>
 <div align="center">
 
 <picture>
