@@ -36,6 +36,8 @@ jobs:
           sed -e 's/#1a1b27/#fffefe/g' -e 's/#38bdae/#333/g' -e 's/#bf91f3/#4c71f2/g' -e 's/#70a5fd/#2f80ed/g' ../generated/quote-dark.svg > ../generated/quote-light.svg
           curl -s "https://readme-typing-svg.demolab.com?font=Space+Mono&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" > ../generated/typing-dark.svg
           curl -s "https://readme-typing-svg.demolab.com?font=Space+Mono&size=24&pause=1000&color=0055FF&center=true&vCenter=true&width=800&height=50&lines=Building+Scalable+AI+%26+Full-Stack+Systems;Agentic+AI+%26+LLM+Engineer;Ex-ML+Engineer+Intern+%40+Webel;CSE+Undergrad+%40+RCCIIT" > ../generated/typing-light.svg
+          cd ..
+          rm -rf github-readme-stats
         env:
           PAT_1: ${{ secrets.STATS_TOKEN }}
 
