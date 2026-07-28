@@ -1,18 +1,18 @@
 <!-- HEADER -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/banner/light.svg" />
-    <img src="./assets/banner/dark.svg" width="100%" alt="Anshu Nandi — Agentic AI &amp; Full-Stack Engineer" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner/light.svg?v=2" />
+    <img src="./assets/banner/dark.svg?v=2" width="100%" alt="Anshu Nandi — Agentic AI &amp; Full-Stack Engineer" />
   </picture>
 </div>
 
 <!-- TYPING SVG -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/typing-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/typing-light.svg" />
-    <img src="./generated/typing-dark.svg" alt="Typing SVG" />
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/typing-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/typing-light.svg?v=2" />
+    <img src="./generated/typing-dark.svg?v=2" alt="Typing SVG" />
   </picture>
 </div>
 
@@ -45,9 +45,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/1-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/1-light.svg" />
-  <img src="./assets/skills/1-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/1-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/1-light.svg?v=2" />
+  <img src="./assets/skills/1-dark.svg?v=2" />
 </picture>
 
 </div>
@@ -57,9 +57,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/2-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/2-light.svg" />
-  <img src="./assets/skills/2-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/2-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/2-light.svg?v=2" />
+  <img src="./assets/skills/2-dark.svg?v=2" />
 </picture>
 
 </div>
@@ -69,9 +69,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/3-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/3-light.svg" />
-  <img src="./assets/skills/3-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/3-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/3-light.svg?v=2" />
+  <img src="./assets/skills/3-dark.svg?v=2" />
 </picture>
 
 </div>
@@ -81,9 +81,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/4-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/4-light.svg" />
-  <img src="./assets/skills/4-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/4-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/4-light.svg?v=2" />
+  <img src="./assets/skills/4-dark.svg?v=2" />
 </picture>
 
 </div>
@@ -106,9 +106,9 @@ Architected a distributed full-stack Govt. grievance platform. Built a hybrid 4-
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/5-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/5-light.svg" />
-  <img src="./assets/skills/5-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/5-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/5-light.svg?v=2" />
+  <img src="./assets/skills/5-dark.svg?v=2" />
 </picture>
 
 
@@ -122,9 +122,9 @@ Architected a custom PyTorch CNN for binary chest X-ray classification. Engineer
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/6-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/6-light.svg" />
-  <img src="./assets/skills/6-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/6-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/6-light.svg?v=2" />
+  <img src="./assets/skills/6-dark.svg?v=2" />
 </picture>
 
 
@@ -140,9 +140,9 @@ Engineered a Git-like CLI (yargs) with immutable SHA hashing and AWS S3 SDK sync
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/7-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/7-light.svg" />
-  <img src="./assets/skills/7-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/7-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/7-light.svg?v=2" />
+  <img src="./assets/skills/7-dark.svg?v=2" />
 </picture>
 
 
@@ -156,9 +156,9 @@ Engineered a P2P video conferencing app using WebRTC (ICE/SDP) and a Socket.IO s
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/8-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/8-light.svg" />
-  <img src="./assets/skills/8-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/8-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/8-light.svg?v=2" />
+  <img src="./assets/skills/8-dark.svg?v=2" />
 </picture>
 
 
@@ -174,9 +174,9 @@ Built a real-time CV pipeline (MediaPipe + OpenCV) computing 3D joint angles to 
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/9-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/9-light.svg" />
-  <img src="./assets/skills/9-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/9-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/9-light.svg?v=2" />
+  <img src="./assets/skills/9-dark.svg?v=2" />
 </picture>
 
 
@@ -190,9 +190,9 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/10-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/10-light.svg" />
-  <img src="./assets/skills/10-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills/10-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills/10-light.svg?v=2" />
+  <img src="./assets/skills/10-dark.svg?v=2" />
 </picture>
 
 
@@ -212,14 +212,14 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/stats-light.svg" />
-    <img src="./generated/stats-dark.svg" width="48%" alt="Anshu Nandi's GitHub Stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/stats-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/stats-light.svg?v=2" />
+    <img src="./generated/stats-dark.svg?v=2" width="48%" alt="Anshu Nandi's GitHub Stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/top-langs-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/top-langs-light.svg" />
-    <img src="./generated/top-langs-dark.svg" width="48%" alt="Most Used Languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/top-langs-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/top-langs-light.svg?v=2" />
+    <img src="./generated/top-langs-dark.svg?v=2" width="48%" alt="Most Used Languages" />
   </picture>
 </p>
 
@@ -227,9 +227,9 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/streak-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/streak-light.svg" />
-    <img src="./generated/streak-dark.svg" width="70%" alt="GitHub Streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/streak-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/streak-light.svg?v=2" />
+    <img src="./generated/streak-dark.svg?v=2" width="70%" alt="GitHub Streak" />
   </picture>
 </div>
 
@@ -241,9 +241,9 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 <h2 align="center">🐍 Contribution Snake</h2>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/snake-light.svg" />
-    <img src="./generated/snake-light.svg" alt="Contribution Snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/snake-light.svg?v=2" />
+    <img src="./generated/snake-light.svg?v=2" alt="Contribution Snake" />
   </picture>
 </div>
 
@@ -255,9 +255,9 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 <h2 align="center">💬 Dev Quote of the Day</h2>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/quote-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/quote-light.svg" />
-    <img src="./generated/quote-dark.svg" width="70%" alt="Quote of the Day" />
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/quote-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/quote-light.svg?v=2" />
+    <img src="./generated/quote-dark.svg?v=2" width="70%" alt="Quote of the Day" />
   </picture>
 </div>
 
