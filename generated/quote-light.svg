@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Coding is "90 percent finished" for half of the total coding time. Debugging is "99 percent complete" most of the time.</h3>
-          <p>- Fred Brooks</p>
+          <h3>Maybe "just one little global variable" isn't too unmanageable, but that style leads to code that is useless except to its original programmer.</h3>
+          <p>- Bjarne Stroustrup</p>
         </div>
       </div>
     </foreignObject>
