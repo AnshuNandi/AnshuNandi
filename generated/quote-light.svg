@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Artificial intelligence is the science of making machines do things that would require intelligence if done by men.</h3>
-          <p>- Marvin Minsky</p>
+          <h3>Maybe "just one little global variable" isn't too unmanageable, but that style leads to code that is useless except to its original programmer.</h3>
+          <p>- Bjarne Stroustrup</p>
         </div>
       </div>
     </foreignObject>
