@@ -216,11 +216,7 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
     <source media="(prefers-color-scheme: light)" srcset="./generated/stats-light.svg?v=2" />
     <img src="./generated/stats-dark.svg?v=2" width="48%" alt="Anshu Nandi's GitHub Stats" />
   </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/top-langs-dark.svg?v=2" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/top-langs-light.svg?v=2" />
-    <img src="./generated/top-langs-dark.svg?v=2" width="48%" alt="Most Used Languages" />
-  </picture>
+  <img src="./generated/metrics.languages.svg" width="48%" alt="Most Used Languages" />
 </p>
 
 <br/>
@@ -231,6 +227,16 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
     <source media="(prefers-color-scheme: light)" srcset="./generated/streak-light.svg?v=2" />
     <img src="./generated/streak-dark.svg?v=2" width="70%" alt="GitHub Streak" />
   </picture>
+</p>
+
+<br/>
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></p>
+
+<!-- ISOMETRIC CALENDAR -->
+<h2 align="center">🧊 3D Contribution Calendar</h2>
+<p align="center">
+  <img src="./generated/metrics.isocalendar.svg" width="90%" alt="3D isometric contribution calendar" />
 </p>
 
 <br/>
