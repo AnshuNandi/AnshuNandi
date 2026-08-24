@@ -237,10 +237,14 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,4,30,8,44,12&height=3" width="100%"/></p>
 
-<!-- ISOMETRIC CALENDAR -->
-<h2 align="center">🧊 3D Contribution Calendar</h2>
+<!-- 3D CONTRIBUTION CITY -->
+<h2 align="center">🏙️ 3D Contribution City</h2>
 <p align="center">
-  <img src="./generated/metrics.isocalendar.svg" width="90%" alt="3D isometric contribution calendar" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-gitblock.svg?v=1" />
+    <img src="./profile-3d-contrib/profile-night-view.svg?v=1" width="100%" alt="3D Contribution Calendar" />
+  </picture>
 </p>
 
 <br/>
