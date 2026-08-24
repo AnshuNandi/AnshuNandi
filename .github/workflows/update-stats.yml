@@ -65,11 +65,16 @@ jobs:
           path: generated/streak-light.svg
           token: ${{ secrets.STATS_TOKEN }}
 
-      - name: Generate True 3D Contribution Calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+      - name: Generate Isometric Contribution Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.STATS_TOKEN }}
+          user: AnshuNandi
+          filename: generated/metrics.isocalendar.svg
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
       - name: Save images to repo
         run: |
