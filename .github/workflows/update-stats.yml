@@ -65,14 +65,27 @@ jobs:
           path: generated/streak-light.svg
           token: ${{ secrets.STATS_TOKEN }}
 
-      - name: Generate Isometric Contribution Calendar
+      - name: Generate Isometric Contribution Calendar (Dark)
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.STATS_TOKEN }}
           user: AnshuNandi
-          filename: generated/metrics.isocalendar.svg
+          filename: generated/metrics.isocalendar.dark.svg
           base: ""
           config_timezone: Asia/Kolkata
+          config_theme: tokyonight
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Generate Isometric Contribution Calendar (Light)
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.STATS_TOKEN }}
+          user: AnshuNandi
+          filename: generated/metrics.isocalendar.light.svg
+          base: ""
+          config_timezone: Asia/Kolkata
+          config_theme: light
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 

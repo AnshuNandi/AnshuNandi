@@ -240,7 +240,11 @@ Engineered a multi-modal biometric system using 128-D facial embeddings (dlib + 
 <!-- ISOMETRIC CALENDAR -->
 <h2 align="center">🧊 3D Contribution Calendar</h2>
 <p align="center">
-  <img src="./generated/metrics.isocalendar.svg" width="90%" alt="3D isometric contribution calendar" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/metrics.isocalendar.dark.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/metrics.isocalendar.light.svg?v=1" />
+    <img src="./generated/metrics.isocalendar.dark.svg?v=1" width="90%" alt="3D isometric contribution calendar" />
+  </picture>
 </p>
 
 <br/>
