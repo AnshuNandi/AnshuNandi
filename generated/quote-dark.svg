@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>You can't just ask customers what they want and then try to give that to them. By the time you get it built, they'll want something new.</h3>
-          <p>- Steve Jobs</p>
+          <h3>The ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code.</h3>
+          <p>- Robert C. Martin</p>
         </div>
       </div>
     </foreignObject>
