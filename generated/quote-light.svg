@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>The real problem with throwaway code comes when it isn't thrown away.</h3>
-          <p>- Joseph Yoder (computer scientist)</p>
+          <h3>Size almost always involves complexity, and complexity confuses programmers. Confused programmers, in turn, introduce mistakes (bugs) into programs.</h3>
+          <p>- Marijn Haverbeke</p>
         </div>
       </div>
     </foreignObject>
