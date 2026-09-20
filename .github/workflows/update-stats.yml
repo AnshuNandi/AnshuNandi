@@ -66,26 +66,26 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
 
       - name: Generate Isometric Contribution Calendar (Dark)
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.STATS_TOKEN }}
           user: AnshuNandi
           filename: generated/metrics.isocalendar.dark.svg
           base: ""
           config_timezone: Asia/Kolkata
-          config_presets: "@github-dark"
+          config_theme: dark
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
       - name: Generate Isometric Contribution Calendar (Light)
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.STATS_TOKEN }}
           user: AnshuNandi
           filename: generated/metrics.isocalendar.light.svg
           base: ""
           config_timezone: Asia/Kolkata
-          config_presets: "@github-light"
+          config_theme: light
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
