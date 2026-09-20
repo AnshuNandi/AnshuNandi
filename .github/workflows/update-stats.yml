@@ -73,6 +73,7 @@ jobs:
           filename: generated/metrics.isocalendar.dark.svg
           base: ""
           config_timezone: Asia/Kolkata
+          config_presets: "@github-dark"
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
@@ -84,6 +85,7 @@ jobs:
           filename: generated/metrics.isocalendar.light.svg
           base: ""
           config_timezone: Asia/Kolkata
+          config_presets: "@github-light"
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
