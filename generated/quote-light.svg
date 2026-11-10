@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Like a financial debt, the technical debt incurs interest payments, which come in the form of the extra effort that we have to do in future development because of the quick and dirty design choice.</h3>
-          <p>- Martin Fowler</p>
+          <h3>The business of software building isn't really high-tech at all. It's most of all a business of talking to each other and writing things down.</h3>
+          <p>- Tom DeMarco</p>
         </div>
       </div>
     </foreignObject>
